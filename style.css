@@ -94,6 +94,14 @@ i{
   padding: 20px;
 }
 
+.box{
+  text-align:center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 #product-presentation .card h2{
   color: #0084FD;
 }
@@ -102,9 +110,10 @@ i{
   color: #5A6E7F;
 }
 
-card.text-left{
+.card.text-left{
   text-align:left;
 }
+
 
 
 /*** /shared ***/
@@ -173,6 +182,28 @@ section:nth-of-type(even){
   background-color: #9792E4;
 }
 
+#testimonials .card{
+  align-items: center;
+  border-radius: 70px;
+  background-color: #9792E4;
+  color: white;
+  height: 700px;
+  width: 467px;
+  margin: 0 auto;
+}
+
+
+
+
+#testimonials .card img{
+    border-radius: 308px;
+    width: 331px;
+    height: 334px;
+}
+
+#testimonials .card h2{
+  
+}
 
 
 
