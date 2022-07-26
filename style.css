@@ -66,7 +66,7 @@ i{
 .container{
   width: 100%;
   padding: 0 20px;
-  border: 1px solid red;
+ 
 }
 
 
@@ -111,7 +111,7 @@ i{
   flex-direction: column;
   padding: 20px;
   height: 100%;
-  border: 1px solid red;
+  
 }
 
 .card--white{
@@ -216,8 +216,12 @@ section:nth-of-type(even){
   background-color: #9792E4;
 }
 
+#strategic-planner .img-woman{
+  color: white;
+}
+
 .img-woman{
-  border: 1px solid red;
+  
   text-align: center;
   padding: 50px;
 }
@@ -373,17 +377,18 @@ footer .column{
 
   #strategic-planner .column{
     text-align: center;
-    
-   
-  }
+    }
 
-  #testimonial .card{
-    display: flex;
+  #testimonial .column{
     flex-direction: row;
   }
 
   .direction-row{
     flex-direction: row;
+  }
+
+  #benefits .card{
+    width: calc();
   }
 
 }
@@ -396,6 +401,10 @@ footer .column{
 
   .menu li{
     margin: 20px;
+  }
+
+  .text{
+    align-items: flex-end;
   }
 
   .btn-white{
@@ -411,6 +420,10 @@ footer .column{
     display: inline-block;
   }
 
+  .container{
+    margin: 0 auto;
+    width: 80%;
+  }
 
   #product-presentation .column:first-child .card{
     flex-direction: row;
@@ -422,6 +435,7 @@ footer .column{
 
   #strategic-planner .container{
     flex-direction: row;
+    height: 1000px;
   }
 
   #strategic-planner .container img{
@@ -430,16 +444,28 @@ footer .column{
 
   #strategic-planner .card{
     width: 30%;
-    height: 800px;
+    height: 620px;
     margin-left: 50px;
     display: flex;
-    align-self: flex-end;
+    margin-bottom: -82px;
+    padding: 19px
+    
   }
 
   .img-woman{
     width: 50%;
-    align-self: flex-start;
+    margin-top: -265px;
   }
+
+  .bordo{
+    flex-direction: column;
+    
+  }
+
+  #product-presentation p{
+    color: white;
+  }
+  
 }
 
 
