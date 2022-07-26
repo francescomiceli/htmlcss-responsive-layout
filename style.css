@@ -189,10 +189,8 @@ section:nth-of-type(even){
   color: white;
   height: 700px;
   width: 467px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
-
-
 
 
 #testimonials .card img{
@@ -200,11 +198,6 @@ section:nth-of-type(even){
     width: 331px;
     height: 334px;
 }
-
-#testimonials .card h2{
-  
-}
-
 
 
 /* product-presentation */
@@ -283,7 +276,7 @@ footer{
 }
 
 .debug .column{
-  min-height: 350px;
+  min-height: 250px;
   border: 1px dashed red;
 }
 
