@@ -94,6 +94,13 @@ i{
   padding: 20px;
 }
 
+.card--white{
+  background-color: #fff;
+  padding: 90px;
+  margin-top: 50px;
+  height: 400px;
+}
+
 .box{
   text-align:center;
   background-color: #fff;
@@ -120,6 +127,8 @@ i{
 
 /***** content *****/
 
+/***** HEADER *****/
+
 header{
   position: fixed;
   background-color: #0084fd;
@@ -141,6 +150,8 @@ header img{
   vertical-align: middle;
 }
 
+/***** SECTIONS *****/
+
 
 main{
   padding-top: 80px;
@@ -156,6 +167,8 @@ section:nth-of-type(even){
   background-color:#9792e4;
   height: auto;
 }
+
+/* Strategic planner */
 
 #strategic-planner .card:first-child{
   background-color: #9792E4;
@@ -182,6 +195,8 @@ section:nth-of-type(even){
   background-color: #9792E4;
 }
 
+/* Testimonials */
+
 #testimonials .card{
   align-items: center;
   border-radius: 70px;
@@ -197,6 +212,26 @@ section:nth-of-type(even){
     border-radius: 308px;
     width: 331px;
     height: 334px;
+}
+
+/* Benefits */
+
+#benefits .column{
+  text-align: center;
+}
+
+#benefits .copntainer{
+  padding: 20px;
+}
+
+#benefits h2{
+  font-size: 50px;
+  padding: 25px 0px;
+  color: white;
+}
+
+#benefits .container{
+  height: 2500px;
 }
 
 
@@ -278,8 +313,4 @@ footer{
 .debug .column{
   min-height: 250px;
   border: 1px dashed red;
-}
-
-.debug .card{
-  height: 100%;
 }
