@@ -219,6 +219,7 @@ section:nth-of-type(even){
 .img-woman{
   border: 1px solid red;
   text-align: center;
+  padding: 50px;
 }
 
 /* Testimonials */
@@ -337,11 +338,6 @@ footer .column{
 
 @media screen and (min-width: 768px){
 
-  .img-woman{
-    width: 80%;
-    text-align: center;
-  }
-
   #product-presentation .column {
     width: calc(100% / 3);
     padding: 0 10px;
@@ -355,19 +351,40 @@ footer .column{
     width: 50%;
   }
 
-  #strategic-planner .card{
-    display: flex;
-    width: 90%;
-    margin-top: 70px;
+  img{
+    width: 100%;
+  }
+  
+  .img-woman{
+    width: 80%;
+    text-align: center;
   }
 
+  #strategic-planner .container{
+    align-items: center;
+  }
 
+  #strategic-planner .card{
+    display: flex;
+    width: 80%;
+    margin-top: 70px;
+    padding: 70px;
+  }
 
   #strategic-planner .column{
     text-align: center;
     
+   
   }
 
+  #testimonial .card{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .direction-row{
+    flex-direction: row;
+  }
 
 }
 
@@ -375,6 +392,15 @@ footer .column{
 
   .menu .fa-bars{
     display: none;
+  }
+
+  .menu li{
+    margin: 20px;
+  }
+
+  .btn-white{
+    background-color: #fff;
+    color: #333333;
   }
 
   .menu ul {
@@ -392,6 +418,27 @@ footer .column{
 
   #product-presentation .column > *, #strategic-planner .column > *{
     padding: 10px;
+  }
+
+  #strategic-planner .container{
+    flex-direction: row;
+  }
+
+  #strategic-planner .container img{
+    width: 50%;
+  }
+
+  #strategic-planner .card{
+    width: 30%;
+    height: 800px;
+    margin-left: 50px;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .img-woman{
+    width: 50%;
+    align-self: flex-start;
   }
 }
 
