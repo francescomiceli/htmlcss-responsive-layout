@@ -22,7 +22,7 @@ ul{
 
 .button p{
   background-color: #0084fd;
-  color: white !important;
+  color: white;
   padding: 10px;
   border-radius: 30px;
   display: block;
@@ -32,6 +32,16 @@ ul{
   background-color: #9792e4;
   width: fit-content;
   font-size: 25px;
+}
+
+.button--white{
+  background-color: white;
+  color: #9792e4;
+  padding: 10px;
+  border-radius: 30px;
+  display: inline-block;
+  width: fit-content;
+  
 }
 
 .button a{
@@ -277,6 +287,20 @@ section:nth-of-type(even){
   bottom: 150px;
   right: 50px;
   color: #9792E4;
+}
+
+/* Get Started */
+
+.get-started .column{
+  text-align: center;
+}
+
+.get-started{
+  margin-bottom: 0px;
+}
+
+.get-started .column> *{
+  padding: 28px;
 }
 
 
