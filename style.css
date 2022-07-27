@@ -322,23 +322,41 @@ section:nth-of-type(even){
 
 /* Get Started */
 
-.get-started .column{
+#get-started .column{
   text-align: center;
+  width: 50%;
+  justify-content: center;
+  padding-top: 50px;
 }
 
-.get-started{
+#get-started .row{
+  justify-content: center;
+}
+
+#get-started{
   margin-bottom: 0px;
 }
 
-.get-started .column> *{
+#get-started .column> *{
   padding: 28px;
 }
 
+#get-started{
+  color: white;
+}
+
+
+
+#yellow{
+  color: #FDC15F;
+  font-size: 50px;
+}
 
 /* product-presentation */
 #product-presentation .card{
   background-color: #b5ddff;
 }
+
 #product-presentation .column:first-child .card {
   padding-bottom: 0;
   align-items: center;
@@ -434,15 +452,15 @@ footer .column{
 
 #about-us .column{
   flex-direction: row;
-    
 }
 
-.bottone {
+#get-started .container{
+  height: 600px;
+  
+}
+
+#get-started a{
   text-decoration: none;
-  background-color: #9792E4;
-  padding: 15px;
-  border-radius: 15px;
-  color: white;
 }
 
 /* ------------------------------------------ */
